@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2613" started-at="2018-04-02T09:28:00Z" finished-at="2018-04-02T09:28:03Z">
+    <groups>
+    </groups>
+    <test name="Automation" duration-ms="2613" started-at="2018-04-02T09:28:00Z" finished-at="2018-04-02T09:28:03Z">
+      <class name="com.rest.services.test.JiraTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="SetUp" is-config="true" duration-ms="79" started-at="2018-04-02T14:58:00Z" finished-at="2018-04-02T14:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loginToJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="loginToJiraApiTest" duration-ms="1404" started-at="2018-04-02T14:58:01Z" finished-at="2018-04-02T14:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToJiraApiTest -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-04-02T14:58:01Z" finished-at="2018-04-02T14:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.services.test.JiraTests.loginToJiraApiTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-04-02T14:58:02Z" finished-at="2018-04-02T14:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.services.test.JiraTests.createIssueInJiraApiTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="FAIL" signature="createIssueInJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="createIssueInJiraApiTest" duration-ms="1093" started-at="2018-04-02T14:58:02Z" finished-at="2018-04-02T14:58:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[create issue in Jira failed due to]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: create issue in Jira failed due to
+	at org.testng.Assert.fail(Assert.java:82)
+	at com.rest.services.test.JiraTests.createIssueInJiraApiTest(JiraTests.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	expected [20] but found [201]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.rest.services.test.JiraTests.createIssueInJiraApiTest(JiraTests.java:81)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssueInJiraApiTest -->
+        <test-method status="PASS" signature="TestResult(org.testng.ITestResult)[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="TestResult" is-config="true" duration-ms="0" started-at="2018-04-02T14:58:02Z" finished-at="2018-04-02T14:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToJiraApiTest status=SUCCESS method=JiraTests.loginToJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@527740a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method status="PASS" signature="TestResult(org.testng.ITestResult)[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="TestResult" is-config="true" duration-ms="2" started-at="2018-04-02T14:58:03Z" finished-at="2018-04-02T14:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createIssueInJiraApiTest status=FAILURE method=JiraTests.createIssueInJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@527740a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rest.services.test.JiraTests@527740a2]" name="tearDown" is-config="true" duration-ms="281" started-at="2018-04-02T14:58:03Z" finished-at="2018-04-02T14:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.services.test.JiraTests -->
+    </test> <!-- Automation -->
+  </suite> <!-- Suite -->
+</testng-results>
