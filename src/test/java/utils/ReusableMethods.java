@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -40,12 +41,11 @@ public class ReusableMethods {
 	
 	public static String getPropData(String key)throws Exception
 	{
-		FileInputStream fin = new FileInputStream("C:\\chinmaya\\javaworkspace\\restAPIFramework\\src\\test\\java\\utils\\env.properties");
+		FileInputStream fin = new FileInputStream(new File("./src/test/java/utils/env.properties"));
 		prop= new Properties();
 		prop.load(fin);
-		
 		String value=prop.getProperty(key);
 		return value;
 	}
-
+	
 }

@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="3317" started-at="2018-03-28T09:59:38Z" finished-at="2018-03-28T09:59:41Z">
+  <suite name="Suite" duration-ms="3105" started-at="2018-04-03T06:13:25Z" finished-at="2018-04-03T06:13:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3317" started-at="2018-03-28T09:59:38Z" finished-at="2018-03-28T09:59:41Z">
-      <class name="com.rest.services.test.CreateJiraLoginTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.rest.services.test.CreateJiraLoginTest@5ebec15]" name="SetUp" is-config="true" duration-ms="15" started-at="2018-03-28T15:29:38Z" finished-at="2018-03-28T15:29:38Z">
+    <test name="Automation" duration-ms="3105" started-at="2018-04-03T06:13:25Z" finished-at="2018-04-03T06:13:28Z">
+      <class name="com.rest.services.test.JiraTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="SetUp" is-config="true" duration-ms="90" started-at="2018-04-03T11:43:25Z" finished-at="2018-04-03T11:43:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="createIssueInJiraApiTest()[pri:0, instance:com.rest.services.test.CreateJiraLoginTest@5ebec15]" name="createIssueInJiraApiTest" duration-ms="3292" started-at="2018-03-28T15:29:38Z" finished-at="2018-03-28T15:29:41Z">
+        <test-method status="PASS" signature="loginToJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="loginToJiraApiTest" duration-ms="1556" started-at="2018-04-03T11:43:25Z" finished-at="2018-04-03T11:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToJiraApiTest -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-04-03T11:43:25Z" finished-at="2018-04-03T11:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.services.test.JiraTests.loginToJiraApiTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="TestResult(org.testng.ITestResult)[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="TestResult" is-config="true" duration-ms="15" started-at="2018-04-03T11:43:26Z" finished-at="2018-04-03T11:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToJiraApiTest status=SUCCESS method=JiraTests.loginToJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="nameBefore" is-config="true" duration-ms="0" started-at="2018-04-03T11:43:26Z" finished-at="2018-04-03T11:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.services.test.JiraTests.createIssueInJiraApiTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="createIssueInJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="createIssueInJiraApiTest" duration-ms="1413" started-at="2018-04-03T11:43:26Z" finished-at="2018-04-03T11:43:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createIssueInJiraApiTest -->
-      </class> <!-- com.rest.services.test.CreateJiraLoginTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        <test-method status="PASS" signature="TestResult(org.testng.ITestResult)[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="TestResult" is-config="true" duration-ms="0" started-at="2018-04-03T11:43:28Z" finished-at="2018-04-03T11:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createIssueInJiraApiTest status=SUCCESS method=JiraTests.createIssueInJiraApiTest()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rest.services.test.JiraTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="203" started-at="2018-04-03T11:43:28Z" finished-at="2018-04-03T11:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.services.test.JiraTests -->
+    </test> <!-- Automation -->
+  </suite> <!-- Suite -->
 </testng-results>

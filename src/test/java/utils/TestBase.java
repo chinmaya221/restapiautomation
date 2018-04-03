@@ -2,9 +2,6 @@ package utils;
 
 import java.io.File;
 import java.lang.reflect.Method;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -31,9 +28,7 @@ public class TestBase {
 	@BeforeTest
 	 public void SetUp() throws Exception
 	 {
-		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-		Date date = new Date();
-		DOMConfigurator.configure("C:\\chinmaya\\javaworkspace\\restAPIFramework\\application_logs\\log4j.xml");
+		DOMConfigurator.configure("./application_logs/log4j.xml");
 		System.out.println("start------ ExtentReportStart");
 		report = new ExtentReports(System.getProperty("user.dir")
 				+ "/test-output/ExtentReport/JiraApiAutomationExtentResult.html",
