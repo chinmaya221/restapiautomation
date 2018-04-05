@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.rest.services.test.JiraTests" hash-for-method="createIssueInJiraApiTest">createIssueInJiraApiTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.rest.services.test.JiraTests" hash-for-method="createIssueInJiraApiTest">createIssueInJiraApiTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.rest.services.test.JiraTests" hash-for-method="loginToJiraApiTest">loginToJiraApiTest</a> <!-- method navigator-link -->
@@ -131,9 +122,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.rest.services.test.JiraTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -142,24 +133,8 @@
                   <a name="createIssueInJiraApiTest">
                   </a> <!-- createIssueInJiraApiTest -->
                   <span class="method-name">createIssueInJiraApiTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: create issue in Jira failed due to
-	at com.rest.services.test.JiraTests.createIssueInJiraApiTest(JiraTests.java:85)
-Caused by: java.lang.AssertionError: The following asserts failed:
-	expected [20] but found [201]
-	at com.rest.services.test.JiraTests.createIssueInJiraApiTest(JiraTests.java:81)
-	... 25 more
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.rest.services.test.JiraTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="loginToJiraApiTest">
@@ -233,11 +208,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginToJiraApiTest')
 data.setCell(0, 2, 'com.rest.services.test.JiraTests')
-data.setCell(0, 3, 1310);
+data.setCell(0, 3, 1690);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createIssueInJiraApiTest')
 data.setCell(1, 2, 'com.rest.services.test.JiraTests')
-data.setCell(1, 3, 1057);
+data.setCell(1, 3, 1191);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -275,33 +250,31 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginToJiraApiTest</span>
-                <span class="method-start">125 ms</span>
+                <span class="method-start">203 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">nameBefore(public void com.rest.services.test.JiraTests.loginToJiraApiTest())</span>
-                <span class="method-start">125 ms</span>
+                <span class="method-start">203 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">TestResult([TestResult name=loginToJiraApiTest status=SUCCESS method=JiraTests.loginToJiraApiTest()[pri:0, inst...)</span>
-                <span class="method-start">1445 ms</span>
+                <span class="method-start">1894 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">createIssueInJiraApiTest</span>
-                <span class="method-start">1445 ms</span>
+                <span class="method-start">1894 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">nameBefore(public void com.rest.services.test.JiraTests.createIssueInJiraApiTest() throws java.lang.Exception)</span>
-                <span class="method-start">1445 ms</span>
+                <span class="method-start">1894 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
-                <span class="method-name">TestResult([TestResult name=createIssueInJiraApiTest status=FAILURE method=JiraTests.createIssueInJiraApiTest()...)</span>
-                <span class="method-start">2503 ms</span>
+                <span class="method-name">TestResult([TestResult name=createIssueInJiraApiTest status=SUCCESS method=JiraTests.createIssueInJiraApiTest()...)</span>
+                <span class="method-start">3086 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2518 ms</span>
+                <span class="method-start">3102 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
