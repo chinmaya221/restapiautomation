@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.ListenerClass"/>
+  </listeners>
+  <test name="Automation(failed)">
+    <classes>
+      <class name="com.rest.services.test.JiraTests">
+        <methods>
+          <include name="TestResult"/>
+          <include name="loginToJiraApiTest"/>
+          <include name="createIssueInJiraApiTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- com.rest.services.test.JiraTests -->
+    </classes>
+  </test> <!-- Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

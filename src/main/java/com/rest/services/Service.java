@@ -1,10 +1,11 @@
 package com.rest.services;
 
+import utils.ReusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import utils.ReusableMethods;
+
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.gson.Gson;
