@@ -5563,3 +5563,458 @@
 05-04-2018 11:09:35 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 05-04-2018 11:09:35 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent.ftl"): Found
 05-04-2018 11:09:35 DEBUG[cache]: Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/TEChinnmaya41/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+05-04-2018 11:46:37 INFO [JiraTests]: Test case loginToJiraApiTest started
+05-04-2018 11:46:38 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:46:38 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:46:38 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:46:38 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:46:38 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:46:38 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:46:38 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:46:38 DEBUG[DefaultClientConnection]: Sending request: POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:46:38 DEBUG[wire]:  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Accept: */*[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Content-Length: 44[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:46:38 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:46:38 DEBUG[headers]: >> POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:46:38 DEBUG[headers]: >> Accept: */*
+05-04-2018 11:46:38 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:46:38 DEBUG[headers]: >> Content-Length: 44
+05-04-2018 11:46:38 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:46:38 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:46:38 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:46:38 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:46:38 DEBUG[wire]:  >> "{"username":"chinmaya","password":"ck2016d"}"
+05-04-2018 11:46:43 DEBUG[wire]:  << "HTTP/1.1 200 [\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "X-AREQUESTID: 706x51x1[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|ce49810385fe936b53945dfda8d3722b696f8b3e|lout;path=/[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "X-AUSERNAME: anonymous[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Set-Cookie: JSESSIONID=336108C3D8B016484E1E59041D7702BC;path=/;HttpOnly[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:16:43 GMT[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:43 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 200 
+05-04-2018 11:46:43 DEBUG[headers]: << HTTP/1.1 200 
+05-04-2018 11:46:43 DEBUG[headers]: << X-AREQUESTID: 706x51x1
+05-04-2018 11:46:43 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:46:43 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|ce49810385fe936b53945dfda8d3722b696f8b3e|lout;path=/
+05-04-2018 11:46:43 DEBUG[headers]: << X-AUSERNAME: anonymous
+05-04-2018 11:46:43 DEBUG[headers]: << Set-Cookie: JSESSIONID=336108C3D8B016484E1E59041D7702BC;path=/;HttpOnly
+05-04-2018 11:46:43 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:46:43 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:46:43 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:46:43 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:46:43 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:46:43 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:46:43 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:46:43 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:16:43 GMT
+05-04-2018 11:46:43 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:46:43 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:46:43 DEBUG[wire]:  << "97[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x1c][0x8d]1[0xe][0x83]0[0x10][0x4][0xff]rm [0xba][0xc3]g0.1[0x14]DQR[0xc0][0x7](Hd[0x9][0xec]([0x8e]i[0x90][0xff][0x1e]A[0xb9]3[0xd2][0xec][0xe]a[0xe][0xc1]z[0x7]z[0x7]7[0xad]3h[0xb8][\r][0xdd]0[0xf4][0xcf]G[0xdf]B[0x6][0xdb][0xb4][0xc4][0x3][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "Q[0x12]*#Z[0xd5] [0x95][0xac][0xb8][0xa3]N[0xd6][0xc8][0xd4]V[0x15][0x16][0x8d][0x81][0x94][0xc1][0xe2][0xdf][0xd6][0xf5][0xee][0xe5][0x8f][0xd8]9[0x8c][0x8f][0xee][0x7][0x9a]Yf[0xf0][0xf9][0xce][0x9b][0xf5]1[0xdc][0xf]1[0xda][0xf3][0xaa]@R9r[0x8e]r$[0xd2]Xk![0xae]5[0xd3][0x5][0xa5]@H[0xe9][0xf][0x0][0x0][0xff][0xff]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[0x3][0x0][0x92][0xdb][0xc8];[0x9e][0x0][0x0][0x0]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:43 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:46:43 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@841e575
+05-04-2018 11:46:43 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:46:43 INFO [JiraTests]: sessionId generated during login:  336108C3D8B016484E1E59041D7702BC
+05-04-2018 11:46:43 INFO [JiraTests]: Test case loginToJiraApiTest ends
+05-04-2018 11:46:43 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:46:43 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:46:43 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:46:43 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:46:43 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:46:43 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:46:43 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:46:43 DEBUG[DefaultClientConnection]: Sending request: POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:46:43 DEBUG[wire]:  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Accept: */*[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Content-Length: 44[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:46:43 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:46:43 DEBUG[headers]: >> POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:46:43 DEBUG[headers]: >> Accept: */*
+05-04-2018 11:46:43 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:46:43 DEBUG[headers]: >> Content-Length: 44
+05-04-2018 11:46:43 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:46:43 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:46:43 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:46:43 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:46:43 DEBUG[wire]:  >> "{"username":"chinmaya","password":"ck2016d"}"
+05-04-2018 11:46:44 DEBUG[wire]:  << "HTTP/1.1 200 [\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "X-AREQUESTID: 706x52x1[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|114042d429aa7258493cbf7eeda2bb62e3d3914d|lout;path=/[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "X-AUSERNAME: anonymous[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Set-Cookie: JSESSIONID=099586BC1729A90BDD5B10F187FB6AA8;path=/;HttpOnly[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:16:44 GMT[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:44 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 200 
+05-04-2018 11:46:44 DEBUG[headers]: << HTTP/1.1 200 
+05-04-2018 11:46:44 DEBUG[headers]: << X-AREQUESTID: 706x52x1
+05-04-2018 11:46:44 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:46:44 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|114042d429aa7258493cbf7eeda2bb62e3d3914d|lout;path=/
+05-04-2018 11:46:44 DEBUG[headers]: << X-AUSERNAME: anonymous
+05-04-2018 11:46:44 DEBUG[headers]: << Set-Cookie: JSESSIONID=099586BC1729A90BDD5B10F187FB6AA8;path=/;HttpOnly
+05-04-2018 11:46:44 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:46:44 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:46:44 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:46:44 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:46:44 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:46:44 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:46:44 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:46:44 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:16:44 GMT
+05-04-2018 11:46:44 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:46:44 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:46:44 DEBUG[wire]:  << "99[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x1c][0x8d][0xcb][0xe][0x82]0[0x14][0x5][0xff][0xe5]n[0x5]s[0xb]}[0xef]([0x95][0x4]ct[0x1]?[0xc0][0x2]M[0x13]l[0x8d][0x15]6[0xa4][0xff]n[0xca][0xf2][0xcc]$sv[0x88]s[0x8c].x[0xd0];[0xf8][0xe9]=[0x83][0x86][0xeb]p[0x19][0x86][0xfe]q[0xef]-[0x14][0xb0]M[0xcb][0x9a]!*[0xc5]$7-[0x11][0x95]j[0x14][0x1a]k[0x99]![0xd8][0x11]):[0xc3][0x9b]FB*`[0x9]/[0xe7]{[0xff][0xc]9v[0x8c]6[0xac][0xfe][0x7][0x9a]R^[0xc0][0xe7];o.[0xac][0xf1][0x96][0xc5][0xe8][0x8e][0xab][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[0x89],[0x91][0x96][0xc8]FB4[0xe5][0x9a]V[0xe7]Z[0x8a][0x13][0xb2][0x1a]![0xa5]?[0x0][0x0][0x0][0xff][0xff]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[0x3][0x0][0xbb]Xvw[0x9e][0x0][0x0][0x0]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:44 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:46:44 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4985cbcb
+05-04-2018 11:46:44 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:46:44 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:46:44 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:46:44 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:46:44 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:46:44 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:46:44 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:46:44 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:46:44 DEBUG[DefaultClientConnection]: Sending request: POST /rest/api/2/issue HTTP/1.1
+05-04-2018 11:46:44 DEBUG[wire]:  >> "POST /rest/api/2/issue HTTP/1.1[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Cookie: JSESSIONID=099586BC1729A90BDD5B10F187FB6AA8[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Accept: application/json[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Content-Length: 160[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:46:44 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:46:44 DEBUG[headers]: >> POST /rest/api/2/issue HTTP/1.1
+05-04-2018 11:46:44 DEBUG[headers]: >> Cookie: JSESSIONID=099586BC1729A90BDD5B10F187FB6AA8
+05-04-2018 11:46:44 DEBUG[headers]: >> Accept: application/json
+05-04-2018 11:46:44 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:46:44 DEBUG[headers]: >> Content-Length: 160
+05-04-2018 11:46:44 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:46:44 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:46:44 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:46:44 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:46:44 DEBUG[wire]:  >> "{"fields":{"project":{"key":"JIR"},"summary":"creating my credit card details","description":"Create my 2nd bug using the REST API","issuetype":{"name":"Bug"}}}"
+05-04-2018 11:46:48 DEBUG[wire]:  << "HTTP/1.1 201 [\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-AREQUESTID: 706x53x1[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-ASESSIONID: h5yq1f[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|287209fed8b5a7717320bcd258072e52d99ef746|lin;path=/[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-AUSERNAME: chinmaya[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:16:48 GMT[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:48 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 201 
+05-04-2018 11:46:48 DEBUG[headers]: << HTTP/1.1 201 
+05-04-2018 11:46:48 DEBUG[headers]: << X-AREQUESTID: 706x53x1
+05-04-2018 11:46:48 DEBUG[headers]: << X-ASESSIONID: h5yq1f
+05-04-2018 11:46:48 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:46:48 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:46:48 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|287209fed8b5a7717320bcd258072e52d99ef746|lin;path=/
+05-04-2018 11:46:48 DEBUG[headers]: << X-AUSERNAME: chinmaya
+05-04-2018 11:46:48 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:46:48 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:46:48 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:46:48 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:46:48 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:46:48 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:46:48 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:16:48 GMT
+05-04-2018 11:46:48 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:46:48 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:46:48 DEBUG[wire]:  << "5d[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xaa]V[0xca]LQ[0xb2]R24[0xb0]40U[0xd2]Q[0xca]N[0xad][0x4][0xf2][0xbc]<[0x83]t[0x8d][0xc]-[0x80][0xfc][0xe2][0xd4][0x9c]4[0xa0]@FII[0x81][0x95][0xbe]~N~rbNF~q[0x89][0x95][0x85][0x81][0x85][0x81]~Qjq[0x89]~bA[0xa6][0xbe][0x91]~fqqi[0xaa]>[0xc4][0x94]Z[0x0][0x0][0x0][0x0][0xff][0xff]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[0x3][0x0]=f[0xd6]iT[0x0][0x0][0x0]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:46:48 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:46:48 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:46:48 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@72e34f77
+05-04-2018 11:46:48 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:46:48 INFO [JiraTests]: ID Generated by issue creation: 10905
+05-04-2018 11:46:48 INFO [JiraTests]: Key generated by issue creation: JIR-218
+05-04-2018 11:46:48 INFO [JiraTests]: Self generated by Issue creation: http://localhost:8080/rest/api/2/issue/10905
+05-04-2018 11:46:48 DEBUG[cache]: Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+05-04-2018 11:46:48 DEBUG[cache]: Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/TEChinnmaya41/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+05-04-2018 11:46:48 DEBUG[cache]: Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+05-04-2018 11:46:48 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+05-04-2018 11:46:48 DEBUG[cache]: Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/TEChinnmaya41/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+05-04-2018 11:47:00 INFO [JiraTests]: Test case loginToJiraApiTest started
+05-04-2018 11:47:01 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:47:01 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:47:01 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:47:01 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:47:01 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:47:01 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:47:01 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:47:01 DEBUG[DefaultClientConnection]: Sending request: POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:47:01 DEBUG[wire]:  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Accept: */*[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Content-Length: 44[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:47:01 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:47:01 DEBUG[headers]: >> POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:47:01 DEBUG[headers]: >> Accept: */*
+05-04-2018 11:47:01 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:47:01 DEBUG[headers]: >> Content-Length: 44
+05-04-2018 11:47:01 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:47:01 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:47:01 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:47:01 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:47:01 DEBUG[wire]:  >> "{"username":"chinmaya","password":"ck2016d"}"
+05-04-2018 11:47:03 DEBUG[wire]:  << "HTTP/1.1 200 [\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-AREQUESTID: 707x54x1[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|32780817283711774cee9568e999ab3fe60a51e7|lout;path=/[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-AUSERNAME: anonymous[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Set-Cookie: JSESSIONID=DEE307FD2B32A81DA50D3210FE58C59B;path=/;HttpOnly[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:17:02 GMT[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 200 
+05-04-2018 11:47:03 DEBUG[headers]: << HTTP/1.1 200 
+05-04-2018 11:47:03 DEBUG[headers]: << X-AREQUESTID: 707x54x1
+05-04-2018 11:47:03 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:47:03 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|32780817283711774cee9568e999ab3fe60a51e7|lout;path=/
+05-04-2018 11:47:03 DEBUG[headers]: << X-AUSERNAME: anonymous
+05-04-2018 11:47:03 DEBUG[headers]: << Set-Cookie: JSESSIONID=DEE307FD2B32A81DA50D3210FE58C59B;path=/;HttpOnly
+05-04-2018 11:47:03 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:47:03 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:47:03 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:47:03 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:47:03 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:47:03 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:47:03 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:47:03 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:17:02 GMT
+05-04-2018 11:47:03 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:47:03 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:47:03 DEBUG[wire]:  << "99[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x1c][0x8d][0xcb][0xe][0x82]0[0x14]D[0xff][0xe5]n[0x5]s[0xfb][0x2][0xec][0xe]hI0F[0x17][0xe5][0x7]X[0x80]i[0x82][0xad][0xb1][0xc2][0x86][0xf4][0xdf][0xb5],g[0xce][0xe4][0xcc][0xe]a[\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0xc1]z[0x7]r[0x7]7[0xbe]&[0x90]p5[0xda][0x98][0xfe]q[0xef][0x15]d[0xb0][0x8d][0xcb][0x9a]J[0xa5]5[0xc3][0xb2]S[0xb4]a[0xb4][0xae][0x88][0xaa][0x5]*F[0x9]vZT[0xad][0xb8]4[0x10]3X[0xfc][0xd3][0xba][0xde][0xcd]>[0xc9][0x8e][0xd0][0xfa][0xd5]}Ar^f[0xf0][0xfe]L[0x9b][0xf5]k[0xb8]%0[0xd8][0xe3][0x8a]"[0xa9]r[0xe4]9[0x8a][0x81][0x10][0xc9][0x8b][0xff][0xf2]L[\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "qB[0xc1][0x10]b[0xfc][0x1][0x0][0x0][0xff][0xff]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0x3][0x0][0xe7][0xa7][0xd9],[0x9e][0x0][0x0][0x0]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@66629f63
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:47:03 INFO [JiraTests]: sessionId generated during login:  DEE307FD2B32A81DA50D3210FE58C59B
+05-04-2018 11:47:03 INFO [JiraTests]: Test case loginToJiraApiTest ends
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:47:03 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:47:03 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:47:03 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:47:03 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:47:03 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:47:03 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:47:03 DEBUG[DefaultClientConnection]: Sending request: POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:47:03 DEBUG[wire]:  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Accept: */*[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Content-Length: 44[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[headers]: >> POST /rest/auth/1/session HTTP/1.1
+05-04-2018 11:47:03 DEBUG[headers]: >> Accept: */*
+05-04-2018 11:47:03 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:47:03 DEBUG[headers]: >> Content-Length: 44
+05-04-2018 11:47:03 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:47:03 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:47:03 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:47:03 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:47:03 DEBUG[wire]:  >> "{"username":"chinmaya","password":"ck2016d"}"
+05-04-2018 11:47:03 DEBUG[wire]:  << "HTTP/1.1 200 [\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-AREQUESTID: 707x55x1[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|c7e3dc0ecdc609d81f5fd3b5a917a5a9b1ee8d5c|lout;path=/[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-AUSERNAME: anonymous[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Set-Cookie: JSESSIONID=5A7F97BB0ED2AAED8D6279BE59ACCE60;path=/;HttpOnly[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:17:02 GMT[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 200 
+05-04-2018 11:47:03 DEBUG[headers]: << HTTP/1.1 200 
+05-04-2018 11:47:03 DEBUG[headers]: << X-AREQUESTID: 707x55x1
+05-04-2018 11:47:03 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:47:03 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|c7e3dc0ecdc609d81f5fd3b5a917a5a9b1ee8d5c|lout;path=/
+05-04-2018 11:47:03 DEBUG[headers]: << X-AUSERNAME: anonymous
+05-04-2018 11:47:03 DEBUG[headers]: << Set-Cookie: JSESSIONID=5A7F97BB0ED2AAED8D6279BE59ACCE60;path=/;HttpOnly
+05-04-2018 11:47:03 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:47:03 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:47:03 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:47:03 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:47:03 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:47:03 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:47:03 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:47:03 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:17:02 GMT
+05-04-2018 11:47:03 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:47:03 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:47:03 DEBUG[wire]:  << "99[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x1c][0x8d][0xcb][0xe][0x82]0[0x14][0x5][0xff][0xe5]n[0x5]s[0xa9]-}[0xec][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0xad][0x9][0xc6][0xe8][0xa2][0xfc][0x0][0x8b]j[0x9a]`k[0xac][0xb0]![0xfc][0xbb][0xc2][0xf2][0xcc]$s[0x16][0xc8]>[0xe7][0x90]"[0xa8][0x5][0xe2][0xf0][0xf2][0xa0][0xe0][0xe2][0xac]s[0xdd][0xfd][0xd6][0x19](`[0x1e][0xc6]i[0x83]L[0xf3][0xb3][0xe4]M[0x83][0xd6][0x10][0xad][0xad][0x11][0xa6]&\6[0x96]I[0xdd][0xb6][0xb6]FX[0xb][0x18][0xd3]3[0xc4].>[0xd2][0x16][0xdb]G[0x9b][0xa6][0xf8][0x5]E[0xa9]([0xe0][0xfd][0xf1]sHS[0xbe]n[0xa2][0xf][0xfb][0x15][0xc1]J[0x94]HKd}U)[0xca][0x15][0x92]#G< ;[0xfd][0x8b][0xeb][0xf][0x0][0x0][0xff][0xff]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[0x3][0x0]4J[0xb4]Y[0x9e][0x0][0x0][0x0]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@71104a4
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:47:03 DEBUG[BasicClientConnectionManager]: Get connection for route {}->http://localhost:8080
+05-04-2018 11:47:03 DEBUG[DefaultClientConnectionOperator]: Connecting to localhost:8080
+05-04-2018 11:47:03 DEBUG[RequestAddCookies]: CookieSpec selected: ignoreCookies
+05-04-2018 11:47:03 DEBUG[RequestAuthCache]: Auth cache not set in the context
+05-04-2018 11:47:03 DEBUG[RequestTargetAuthentication]: Target auth state: UNCHALLENGED
+05-04-2018 11:47:03 DEBUG[RequestProxyAuthentication]: Proxy auth state: UNCHALLENGED
+05-04-2018 11:47:03 DEBUG[DefaultHttpClient]: Attempt 1 to execute request
+05-04-2018 11:47:03 DEBUG[DefaultClientConnection]: Sending request: POST /rest/api/2/issue HTTP/1.1
+05-04-2018 11:47:03 DEBUG[wire]:  >> "POST /rest/api/2/issue HTTP/1.1[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Cookie: JSESSIONID=5A7F97BB0ED2AAED8D6279BE59ACCE60[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Accept: application/json[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Content-Length: 160[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Host: localhost:8080[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Connection: Keep-Alive[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+05-04-2018 11:47:03 DEBUG[wire]:  >> "[\r][\n]"
+05-04-2018 11:47:03 DEBUG[headers]: >> POST /rest/api/2/issue HTTP/1.1
+05-04-2018 11:47:03 DEBUG[headers]: >> Cookie: JSESSIONID=5A7F97BB0ED2AAED8D6279BE59ACCE60
+05-04-2018 11:47:03 DEBUG[headers]: >> Accept: application/json
+05-04-2018 11:47:03 DEBUG[headers]: >> Content-Type: application/json; charset=UTF-8
+05-04-2018 11:47:03 DEBUG[headers]: >> Content-Length: 160
+05-04-2018 11:47:03 DEBUG[headers]: >> Host: localhost:8080
+05-04-2018 11:47:03 DEBUG[headers]: >> Connection: Keep-Alive
+05-04-2018 11:47:03 DEBUG[headers]: >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_111)
+05-04-2018 11:47:03 DEBUG[headers]: >> Accept-Encoding: gzip,deflate
+05-04-2018 11:47:03 DEBUG[wire]:  >> "{"fields":{"project":{"key":"JIR"},"summary":"creating my credit card details","description":"Create my 2nd bug using the REST API","issuetype":{"name":"Bug"}}}"
+05-04-2018 11:47:05 DEBUG[wire]:  << "HTTP/1.1 201 [\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-AREQUESTID: 707x56x1[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-ASESSIONID: wds06i[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-ASEN: SEN-L11400104[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-Seraph-LoginReason: OK[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|53dd56e981fb24f75946be5c016f1a80cfe8e5c8|lin;path=/[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-AUSERNAME: chinmaya[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "X-Content-Type-Options: nosniff[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Content-Encoding: gzip[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Vary: User-Agent[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Transfer-Encoding: chunked[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "Date: Thu, 05 Apr 2018 06:17:05 GMT[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:05 DEBUG[DefaultClientConnection]: Receiving response: HTTP/1.1 201 
+05-04-2018 11:47:05 DEBUG[headers]: << HTTP/1.1 201 
+05-04-2018 11:47:05 DEBUG[headers]: << X-AREQUESTID: 707x56x1
+05-04-2018 11:47:05 DEBUG[headers]: << X-ASESSIONID: wds06i
+05-04-2018 11:47:05 DEBUG[headers]: << X-ASEN: SEN-L11400104
+05-04-2018 11:47:05 DEBUG[headers]: << X-Seraph-LoginReason: OK
+05-04-2018 11:47:05 DEBUG[headers]: << Set-Cookie: atlassian.xsrf.token=BH74-6I2I-MB8R-N9LE|53dd56e981fb24f75946be5c016f1a80cfe8e5c8|lin;path=/
+05-04-2018 11:47:05 DEBUG[headers]: << X-AUSERNAME: chinmaya
+05-04-2018 11:47:05 DEBUG[headers]: << Cache-Control: no-cache, no-store, no-transform
+05-04-2018 11:47:05 DEBUG[headers]: << X-Content-Type-Options: nosniff
+05-04-2018 11:47:05 DEBUG[headers]: << Content-Encoding: gzip
+05-04-2018 11:47:05 DEBUG[headers]: << Vary: User-Agent
+05-04-2018 11:47:05 DEBUG[headers]: << Content-Type: application/json;charset=UTF-8
+05-04-2018 11:47:05 DEBUG[headers]: << Transfer-Encoding: chunked
+05-04-2018 11:47:05 DEBUG[headers]: << Date: Thu, 05 Apr 2018 06:17:05 GMT
+05-04-2018 11:47:05 DEBUG[DefaultHttpClient]: Connection can be kept alive indefinitely
+05-04-2018 11:47:05 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsing response as: application/json;charset=UTF-8
+05-04-2018 11:47:05 DEBUG[wire]:  << "5d[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xaa]V[0xca]LQ[0xb2]R24[0xb0]40S[0xd2]Q[0xca]N[0xad][0x4][0xf2][0xbc]<[0x83]t[0x8d][0xc]-[0x81][0xfc][0xe2][0xd4][0x9c]4[0xa0]@FII[0x81][0x95][0xbe]~N~rbNF~q[0x89][0x95][0x85][0x81][0x85][0x81]~Qjq[0x89]~bA[0xa6][0xbe][0x91]~fqqi[0xaa]>[0xc4][0x94]Z[0x0][0x0][0x0][0x0][0xff][0xff]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "a[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[0x3][0x0]S[0xe8][0x1f][0xb0]T[0x0][0x0][0x0]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "0[\r][\n]"
+05-04-2018 11:47:05 DEBUG[wire]:  << "[\r][\n]"
+05-04-2018 11:47:05 DEBUG[RequestSpecificationImpl$RestAssuredHttpBuilder]: Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+05-04-2018 11:47:05 DEBUG[BasicClientConnectionManager]: Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6e9319f
+05-04-2018 11:47:05 DEBUG[BasicClientConnectionManager]: Connection can be kept alive indefinitely
+05-04-2018 11:47:05 INFO [JiraTests]: ID Generated by issue creation: 10906
+05-04-2018 11:47:05 INFO [JiraTests]: Key generated by issue creation: JIR-219
+05-04-2018 11:47:05 INFO [JiraTests]: Self generated by Issue creation: http://localhost:8080/rest/api/2/issue/10906
+05-04-2018 11:47:05 DEBUG[cache]: Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+05-04-2018 11:47:05 DEBUG[cache]: Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/TEChinnmaya41/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+05-04-2018 11:47:05 DEBUG[cache]: Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+05-04-2018 11:47:05 DEBUG[cache]: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+05-04-2018 11:47:05 DEBUG[cache]: Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/TEChinnmaya41/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
